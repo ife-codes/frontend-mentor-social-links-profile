@@ -1,7 +1,9 @@
+
 :root {
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
 
   color: hsl(0, 0%, 100%);
   background-color: hsl(0, 0%, 8%);
@@ -28,7 +30,7 @@ body {
 
 h1 {
   font-size: 1.8rem;
-  font-weight: 600;
+  font-weight: 700;
   line-height: 1.1;
 }
 
@@ -39,4 +41,9 @@ button {
   cursor: pointer;
   padding: 8px;
   border-radius: 8px;
+  transition: 300ms;
+}
+button:hover {
+  background-color: hsl(75, 94%, 57%);
+  color: hsl(0, 0%, 8%);
 }

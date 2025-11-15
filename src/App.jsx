@@ -8,18 +8,18 @@ function App() {
 
   return (
     <>
-      <div className="flex flex-col items-center justify-center bg-[hsl(0,0%,12%)] h-[560px] w-[350px] p-8 rounded-xl">
+      <div className="flex flex-col items-center justify-center bg-[hsl(0,0%,12%)] p-6 rounded-xl">
         <div className="flex flex-col items-center justify-center gap-[10px]">
           <img
             src="/images/avatar-jessica.jpeg"
             alt="Jessica"
-            className="rounded-full w-[150px] h-[150px]"
+            className="rounded-full w-[100px] h-[100px]"
           />
           <div className="flex flex-col items-center justify-center gap-[5px]">
             <h1>Jessica Randall</h1>
-            <p className="text-[hsl(75,94%,57%)] font-medium">London, United Kingdom</p>
+            <p className="text-[hsl(75,94%,57%)] font-[600]">London, United Kingdom</p>
           </div>
-          <p>"Front-end developer and avid reader."</p>
+          <p className="font-[400]">"Front-end developer and avid reader."</p>
         </div>
         <div className="flex flex-col gap-2 w-full mt-[10px]">
           <a className="block" href="https://github.com" target="_blank">
