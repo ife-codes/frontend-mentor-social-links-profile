@@ -1,6 +1,4 @@
 import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
 import "./App.css";
 
 function App() {
@@ -13,15 +11,17 @@ function App() {
           <img
             src="/images/avatar-jessica.jpeg"
             alt="Jessica"
-            className="rounded-full w-[100px] h-[100px]"
+            className="rounded-full w-[100px] h-[100px] md:w-[80px] md:h-[80px]"
           />
           <div className="flex flex-col items-center justify-center gap-[5px]">
             <h1>Jessica Randall</h1>
-            <p className="text-[hsl(75,94%,57%)] font-[600]">London, United Kingdom</p>
+            <p className="text-[hsl(75,94%,57%)] font-[600]">
+              London, United Kingdom
+            </p>
           </div>
           <p className="font-[400]">"Front-end developer and avid reader."</p>
         </div>
-        <div className="flex flex-col gap-2 w-full mt-[10px]">
+        <div className="flex flex-col gap-4 w-full mt-[10px]">
           <a className="block" href="https://github.com" target="_blank">
             <button className="bg-[hsl(0,0%,20%)] w-full">GitHub</button>
           </a>
